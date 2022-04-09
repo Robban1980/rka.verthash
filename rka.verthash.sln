@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RKA.Verthash", "src\rka.verthash\RKA.Verthash.csproj", "{80534892-8143-4F20-A1D9-3311929D04F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RKA.Verthash.Tests", "tests\rka.verthash.tests\RKA.Verthash.Tests.csproj", "{2A351D42-DFCA-4005-A715-EB98344F656B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80534892-8143-4F20-A1D9-3311929D04F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80534892-8143-4F20-A1D9-3311929D04F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80534892-8143-4F20-A1D9-3311929D04F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80534892-8143-4F20-A1D9-3311929D04F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A351D42-DFCA-4005-A715-EB98344F656B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A351D42-DFCA-4005-A715-EB98344F656B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A351D42-DFCA-4005-A715-EB98344F656B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A351D42-DFCA-4005-A715-EB98344F656B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B9AF190-1E54-4D4F-9686-4D00812CA2BD}
+	EndGlobalSection
+EndGlobal

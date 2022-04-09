@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>RKA.Verthash</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>Library for the Verthash algorithm used by the crypto currency Vertcoin.</Description>
+    <PackageTags>Vertcoin;Verthash</PackageTags>
+    <PackageReleaseNotes>First release.</PackageReleaseNotes>
+    <Authors>Robert Karlsson</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SHA3.Net" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
